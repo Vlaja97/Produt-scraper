@@ -49,9 +49,9 @@ class Product(Base):
 
     name = Column(String, primary_key=True)
     price = Column(Float)
-    product_link = Column(String)
+    link = Column(String)
     def __repr__(self):
-        return f'Product {self.name} - Price {self.price}'
+        return f'Product {self.name} - Price {self.price} - Link {self.link}'
     
     @classmethod
     def find_by_name(cls, session, name):

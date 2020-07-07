@@ -20,8 +20,6 @@ def list_products():
     Session = sessionmaker(bind=engine)
     session = Session()
     products = session.query(Product).all()
-    for product in products:
-        print(product)
     return render_template('list.html', products = products )
 
 
