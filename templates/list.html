@@ -1,0 +1,11 @@
+{% extends 'index.html' %}
+{% block content %}
+     
+        {% for product in products %}
+            <ul class="list-group">
+                <li id="myTable" class="list-group-item">Name
+                    {{ product.name }} <b>Price: {{ product.price }}</b></li>
+            </ul>
+        {% endfor %}
+     
+{% endblock %}
