@@ -31,7 +31,6 @@ df['Price'] = (df['Price'].str.replace('RSD', '').str.strip())
 #df['Price'] = df['Price'].astype(float)
 #pd.set_option('display.float_format','{:.3f}'.format)
 
-print(df)
 
 # Create DB
 Base = declarative_base()
