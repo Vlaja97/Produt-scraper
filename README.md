@@ -17,4 +17,5 @@ Scraping products of sites using BeatifoulSoup, formating data with pandas and s
 
 # Disclaimer
 *This project is for purpose of learning only*
+
 *This project is for personal and not for comercial use*
